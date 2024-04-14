@@ -12,23 +12,23 @@
 
 body {
     background-color: var(--cor2);
-    min-height: 700px;
-    max-height: 1200px;
+    height: 1000px;
+    width: 100%;
     display: flex;
+    align-items: center;
 }
 
 main {
-    margin: auto;
+    width: 100%;
 }
 
 main .card {
-    min-width: 300px;
-    max-width: 450px;
-    min-height: 500px;
-    max-height: 900px;
+    width: 30%;
+    height: 50%;
     background-color: white;
     padding: 15px;
     border-radius: 15px;
+    margin: auto;
 }
 
 main .card .container-foto {
@@ -36,12 +36,13 @@ main .card .container-foto {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    margin-top: 10px;
 }
 
 main .card .container-foto img {
     max-width: 90%;
     max-height: 90%;
+    border-radius: 15px;
 }
 
 main article {
