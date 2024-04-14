@@ -32,22 +32,17 @@ main .card {
 }
 
 main .card .container-foto {
-    max-width: 450px;
-    max-height: 300px;
-    min-height: 250px;
+    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 50px solid var(--cor0);
     border-radius: 15px;
     margin-bottom: 25px;
 }
 
 main .card .container-foto img {
-    min-height: 240px;
-    min-width: 250px;
-    max-width: 250px;
-    max-height: 240px;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 main article {
@@ -60,7 +55,7 @@ main article {
 }
 
 main article h1 {
-    font-size: 2.2em;
+    font-size: 2em;
     text-align: center;
     margin: 10px 0;
     line-height: 1.5em;
