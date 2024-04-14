@@ -12,7 +12,8 @@
 
 body {
     background-color: var(--cor2);
-    min-height: 100vh;
+    min-height: 700px;
+    max-height: 1200px;
     display: flex;
 }
 
@@ -21,38 +22,64 @@ main {
 }
 
 main .card {
-    min-width: 320px;
+    min-width: 300px;
     max-width: 450px;
+    min-height: 500px;
+    max-height: 900px;
     background-color: white;
     padding: 15px;
-    border-radius: 12px;
+    border-radius: 15px;
 }
 
 main .card .container-foto {
-    max-width: 250px;
-    margin: auto;
+    max-width: 450px;
+    max-height: 300px;
+    min-height: 250px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 50px solid var(--cor0);
+    border-radius: 15px;
+    margin-bottom: 25px;
 }
 
 main .card .container-foto img {
+    min-height: 240px;
+    min-width: 250px;
     max-width: 250px;
+    max-height: 240px;
 }
 
 main article {
-    background-color: var(--cor0);
     padding: 10px;
-    max-width: 80%;
+    max-width: 100%;
     line-height: 1.5em;
     margin: auto;
     font-family: var(--fonte-padrao);
+    margin-bottom: 20px;
 }
+
 main article h1 {
-    font-size: 1.5em;
+    font-size: 2.2em;
     text-align: center;
     margin: 10px 0;
+    line-height: 1.5em;
+    color: var(--cor1);
 }
+
 main article p {
     text-align: justify;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.7px;
+    margin-bottom: 10px;
+    color: var(--cor1);
+}
+
+main article p > strong {
+    color: var(--cor1);
+}
+
+main article p>a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
 }
