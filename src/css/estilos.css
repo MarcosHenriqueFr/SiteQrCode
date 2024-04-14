@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --cor0: #0299E0;
+    --cor0: #01A1FF;
     --cor1: #013750;
     --cor2: #c2e7f8;
 
@@ -37,12 +37,11 @@ main .card .container-foto {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    margin-bottom: 25px;
 }
 
 main .card .container-foto img {
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 90%;
+    max-height: 90%;
 }
 
 main article {
