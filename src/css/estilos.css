@@ -12,7 +12,7 @@
 
 body {
     background-color: var(--cor2);
-    height: 1000px;
+    height: 900px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,8 +23,8 @@ main {
 }
 
 main .card {
-    width: 30%;
-    height: 50%;
+    width: 20%;
+    height: 40%;
     background-color: white;
     padding: 15px;
     border-radius: 15px;
